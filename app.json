@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "template",
-    "slug": "template",
+    "name": "ExpoBaseTemplate",
+    "slug": "ExpoBaseTemplate",
     "platforms": [
       "ios",
       "android",
