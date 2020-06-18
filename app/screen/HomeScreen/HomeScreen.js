@@ -8,9 +8,9 @@ export default class HomeScreen extends Component {
     }
 
     render() {
-
+        const app_url = process.env.APP_URL;
         return(
-            <Container>
+        <Container>
         <Header>
           <Left>
             <Button
@@ -30,7 +30,7 @@ export default class HomeScreen extends Component {
             <CardItem>
               <Body>
                 <Text>Home Screen</Text>
-                <Text>{process.env.APP_URL}</Text>
+                <Text>{app_url}</Text>
               </Body>
             </CardItem>
           </Card>

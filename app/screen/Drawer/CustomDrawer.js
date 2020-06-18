@@ -16,13 +16,15 @@ class CustomDrawer extends React.Component {
 
     render() {
         return(
-            <DrawerContentScrollView {...this.props}>
-                <DrawerItemList {...this.props} />
+            <View style={{ flex: 1 }}>
+                <DrawerContentScrollView {...this.props}>
+                    <DrawerItemList {...this.props} />
+                </DrawerContentScrollView>
                 <View style={styles.statusContainer}>
-                        <Text>V1.0</Text>
-                        <Text>Device {this.props.isConnected? 'online': 'offline'}</Text>
+                    <Text>V1.0</Text>
+                    <Text>Device {this.props.isConnected? 'online': 'offline'}</Text>
                 </View>
-            </DrawerContentScrollView>
+            </View>     
         )
   }
 }

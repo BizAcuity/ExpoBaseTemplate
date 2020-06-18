@@ -23,7 +23,8 @@ const styles = EStyleSheet.create({
       justifyContent: 'center',
     },
     statusContainer: {
-        marginTop: '60rem',
+
+        marginBottom: '10rem',
         justifyContent: "flex-end",
         alignItems: "center",
     },
